@@ -2,7 +2,7 @@
 
 const fs = require('fs');
 
-let workspace = 'D:/InstaQuick/workspace/temp';
+let workspace = 'D:/workspace';
 let lines = fs.readFileSync(`${workspace}/USELESS TEXT.txt`).toString('utf16le').slice(1).split(/\r?\n/g);
 let x = 0;
 let str_in = '';
